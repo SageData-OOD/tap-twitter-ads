@@ -21,6 +21,9 @@
     "text": {
       "type": ["null", "string"]
     },
+    "card_uri": {
+      "type": ["null", "string"]
+    },
     "source": {
       "type": ["null", "string"]
     },
