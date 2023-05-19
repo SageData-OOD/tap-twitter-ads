@@ -746,8 +746,8 @@ class Reports(TwitterAds):
                                                             report_entity,
                                                             report_granularity,
                                                             timezone,
-                                                            window_start,
-                                                            window_end)
+                                                            window_start_rounded,
+                                                            window_end_rounded)
                 # End: else (active_entities)
 
             LOGGER.info('entity_id_sets = {}'.format(entity_id_sets)) # COMMENT OUT
